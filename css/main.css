@@ -3,37 +3,61 @@
 	border: 1px solid black;
 }
 
+
 .container
 {
 	padding: 0px;
 }
 
-.project-image
+#site-name
+{
+	max-width: 780px;
+	height: 120px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+#site-name h1
+{
+	font-size: 48px;
+	line-height: 40px;
+}
+
+#navbar
 {
 	
-	height: 200px;
-	width: 300px;
+	font-size: 18px;
+	text-align: center;
 }
 
-header
+.section-name
 {
-	line-height: 60px;
+	
+	border-bottom: 1px solid black;
+	padding-top: 70px;
 }
 
-#logo
-{
-	padding: 0px;
-	width: 220px;
-}
-
-#name h4
+.section-name
 {
 	text-align: center;
 	font-size: 24px;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	border-bottom: 
 }
 
+.projects
+{
+	padding-top: 30px;
+}
+.project-picture
+{
+	
+}
+.project-picture > img
+{
+	width: 220px;
+	height: 140px;
+}
+/*
 #navbar nav, #navbar ul, #navbar li, #navbar a
 {
 	line-height: 1em;
@@ -56,15 +80,5 @@ header
 	color: #6b6b6b;
 	display: block;
 }
+*/
 
-.row
-{
-	padding-top: 10px;
-	margin: 0px;
-}
-
-.project
-{
-	text-align: center;
-	margin: 0px 10px;
-}
