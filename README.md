@@ -1,4 +1,4 @@
 Kromis.github.io
 ================
 
-Personal site
+Personal site for my portfolio
