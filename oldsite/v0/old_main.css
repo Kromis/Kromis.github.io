@@ -1,0 +1,180 @@
+body
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+    background: #29504E;
+    font-family: "Nunito", "Helvetica Neue", Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.container
+{
+    position: relative;
+    padding: 0;
+    background: #293F50;
+    margin: 0 auto;
+    margin-top: 43px;
+    min-width: 960px;
+    min-height: 800px;
+}
+
+.columns
+{
+    padding-left: 10px;
+   padding-right: 10px;
+}
+
+.tab-pane h4
+{
+    text-align: center;
+    margin-top: 40px;
+    color: #eaeaed;
+    margin-bottom: -24px;
+}
+.tab-pane p
+{
+    text-align: center;
+    margin-top: 40px;
+    color: #eaeaed;
+}
+
+.nav-pills > li > a 
+{
+  border-radius: 2px;
+    color: #fff;
+}
+
+.nav-pills > li > a:hover
+{
+    background: none;
+    color: orange;
+}
+
+.nav-pills > li.active > a
+{
+    background: #4b9484;
+}
+	
+h3 
+{
+  margin-top: 0;
+  margin-bottom: 0;
+    line-height: 40px;
+    border-bottom: 2px inset #fff;
+}
+
+header
+{
+    margin-top: 12px;
+    color: white;
+}
+
+.jumbotron
+{
+	margin: 0 auto;
+	width: 560px;
+    height: auto;
+	text-align: center;
+	margin-top: 60px; 
+    background:#eaeaed;
+    color: #293F50;
+    padding-top: 36px;
+}
+
+.jumbotron h2
+{
+    font-size: 50px;
+}
+.jumbotron p
+{
+    position: relative;
+    bottom: 40%;
+    color: #293F50;
+    font-style: italic;   
+}
+
+
+
+.tab-pane a:hover
+{
+	background: none;
+	color: orange;
+}
+
+
+.tab-content p
+{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+
+.proj-container
+{
+	position: relative;
+	clear: both;
+}
+
+.portfolio-toggle
+{
+	cursor: pointer;
+	max-height: 300px;
+	max-width: 300px;
+	margin: 20px 10px;
+}
+
+.proj-details
+{
+	position: absolute;
+	top: 20px;
+	left: 10px;
+	border: 3px double white;
+	min-width: 300px;
+	max-height: 700px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.proj-details img
+{
+	margin: 0;
+}
+
+.proj-details > p
+{
+	margin: auto 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+
+.proj-summary
+{
+	position: absolute;
+	top: 10px;
+	left: 360px;
+	max-width: 66%;
+	margin: auto;
+}
+
+.proj-summary p
+{
+	text-align: left;
+}
+
+.proj-name 
+{
+	font-size: 18px;
+}
+
+.portfolio-proj
+{
+	display: none;
+}
+
+.active-project
+{
+	display: block;
+}
+

@@ -1,0 +1,203 @@
+/*
+Colors to pick from:
+rgb(216, 202, 168) sand
+rgb(92, 131, 47) light green
+rgb(40, 73, 7) dark green
+rgb(56, 37, 19) brown
+rgb(54, 57, 66) gray
+*/
+
+body
+{
+	
+	background-color: rgb(56, 37, 19);
+
+}
+
+
+body > .container
+{
+	background: linear-gradient(to right, rgb(56, 37, 19) 0%, rgb(216, 202, 168) 2% , rgb(216, 202, 168) 98%, rgb(56, 37, 19) 100%);
+	
+}
+
+.test
+{
+	border: 1px solid rgb(54, 57, 66);
+}
+
+.container
+{
+	padding: 0px;
+}
+
+#site-name
+{
+	max-width: 780px;
+	height: 120px;
+	text-align: center;
+	margin: 0px auto;
+	background-color: rgb(92, 131, 47);
+	color: white;
+
+}
+
+#site-name h1
+{
+	font-size: 48px;
+	line-height: 40px;
+	
+}
+
+#navbar
+{
+	
+	font-size: 18px;
+	text-align: center;
+}
+
+#site-name, #navbar, .profile-description > h3, .about-description > h3, .other-description > h3
+{
+	font-family: "Nunito";
+}
+
+#navbar div
+{
+	background-color: rgb(54, 57, 66);
+	max-width: 780px;
+}
+
+#navbar div:hover
+{
+	
+	background-color: rgb(92, 131, 47);
+}
+
+#navbar a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.section-name
+{
+	
+	text-align: center;
+	font-size: 24px;
+	font-family: "Nunito";
+	color: white;
+	background-color: rgb(40, 73, 7);
+	max-width: 780px;
+	margin: 0px auto;
+
+}
+
+.project
+{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.project-content
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.divider
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.project-picture > img, .about-picture > img
+{
+	border-radius: 10px; 
+	border: 1px solid rgb(56, 37, 19);
+}
+
+.profile-description > h2
+{
+	padding-bottom: 20px;
+}
+
+.profile-description > h2 > i
+{
+	font-size: 20px;
+}
+
+.profile-description div
+{
+	font-size: 16px;
+	color: rgb(40, 73, 7);
+}
+
+.profile-description p, .about-description p, .other-description p
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	color: rgb(54, 57, 66);
+
+}
+
+.profile-description h3, .about-description h3, .other-description h3
+{
+	color: white;
+	background-color: rgb(40, 73, 7);
+	padding: 2px 0px;
+	text-align: center;
+}
+
+.project-description p:first-child
+{
+	font-size: 20px;
+}
+
+.project-description p > i
+{
+	font-size: 16px;
+}
+
+.project-description > p:nth-child(2)
+{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.project-divider
+{
+	display: block; 
+	text-align: center; 
+	color: rgb(92, 131, 47); 
+	margin: 20px 0px;
+	font-size: 120%;
+}
+
+.project-divider span
+{
+	margin: 0px 6px;
+}
+
+.profile-description p, li, .about-description p, .other-description p
+{
+	font-size: 18px;
+}
+
+.subheader
+{
+	margin-bottom: -5px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 356px)
+{
+	#site-name h1
+	{
+		font-size: 42px;
+		line-height: 40px;
+	}
+}
